@@ -1,3 +1,7 @@
+--root {
+    --primary-text: purple;
+}
+
 body {
     margin: 0;
 }
@@ -45,7 +49,7 @@ article::after {
 }
 
 .article-title {
-    color: darkblue;
+    color:var(--primary-text);
     font-size: 48px;
     font-weight: 900;
 }
@@ -56,6 +60,12 @@ article::after {
     object-fit: cover;
 }
 
+article > section {
+    text-align: justify;
+    padding: 0 20px;
+    color: var(--primary-text);
+    font-size: 24px;
+}
 article > section p:first-child {
     text-indent: 50px;
 }
