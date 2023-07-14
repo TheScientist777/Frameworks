@@ -1,5 +1,6 @@
 --root {
-    --primary-text: purple;
+    --primary-text: white;
+    --bg-color: #323232
 }
 
 body {
